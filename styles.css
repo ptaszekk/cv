@@ -19,6 +19,10 @@ h2 {
   margin-bottom: 2rem;
 }
 
+h4 {
+  font-weight: 400;
+}
+
 body {
   background: white;
   color: #131212;
@@ -40,7 +44,7 @@ body {
           box-sizing: border-box;
   padding: 0.3in;
   width: 8.5in;
-  height: 12in;
+  height: auto;
   -webkit-box-shadow: 0 4px 8px -3px rgba(0, 0, 0, 0.7);
           box-shadow: 0 4px 8px -3px rgba(0, 0, 0, 0.7);
 }
@@ -50,6 +54,14 @@ body {
 .wrapper a:focus {
   text-decoration: none;
   color: #131212;
+}
+
+.break-1 {
+  margin-bottom: 1rem;
+}
+
+.break-2 {
+  margin-bottom: 2.5rem;
 }
 
 .container {
@@ -87,6 +99,10 @@ body {
   margin: 4rem, auto, auto, 5rem;
 }
 
+.container-left {
+  padding-top: 8rem;
+}
+
 .contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -112,6 +128,8 @@ body {
 
 .contact-name {
   font-weight: 800;
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .contact-details {
@@ -123,7 +141,7 @@ body {
 }
 
 .skills-programming {
-  color: white;
+  color: #131212;
 }
 
 .skills-languages {
@@ -133,6 +151,10 @@ body {
 .skills ul {
   list-style: none;
   text-decoration: none;
+}
+
+.section {
+  margin-bottom: 2rem;
 }
 
 .sub-section {

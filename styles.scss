@@ -32,6 +32,7 @@ h4 {
 body {
   background: $clr-bg-1;
   color: $clr-text-1;
+  object-fit: contain;
 }
 
 .wrapper {
@@ -39,6 +40,7 @@ body {
   display: flex;
   flex-direction: row;
   background-size: cover;
+
 
   margin: 0 auto;
   box-sizing: border-box;

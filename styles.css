@@ -90,7 +90,6 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     min-width: 80%;
-    margin: 2rem;
 }
 
 .contact {
@@ -166,6 +165,6 @@ body {
 }
 
 ul {
-    list-style: none;
+    list-style: circle;
     text-decoration: none;
 }
